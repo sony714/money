@@ -1,12 +1,12 @@
 <template>
   <div class="nav-wrapper">
     <div class="content">
-      <Nav />
       <slot />
     </div>
+    <Nav />
   </div>
 </template>
-<script>
+<script lang='ts'>
 export default {
   name: "Layout",
 };
@@ -14,7 +14,6 @@ export default {
 
 <style lang="scss" scoped>
 .nav-wrapper {
-  border: 1px solid green;
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -23,6 +22,5 @@ export default {
 .content {
   overflow: auto;
   flex-grow: 1;
-  border: 1px solid blue;
 }
 </style>

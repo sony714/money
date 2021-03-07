@@ -1,7 +1,5 @@
 <template>
   <div>
-    App
-    <hr />
     <router-view />
   </div>
 </template>
@@ -11,6 +9,13 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+body {
+  line-height: 1.5;
+}
+a {
+  text-decoration: none;
+  color: inherit;
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -26,7 +31,6 @@
   a {
     font-weight: bold;
     color: #2c3e50;
-
     &.router-link-exact-active {
       color: #42b983;
     }
