@@ -13,7 +13,7 @@ try {
   console.log(error);
 }
 export default {
-  name: "icon",
+  name: "Icon",
   props: ["name"],
 };
 </script>
